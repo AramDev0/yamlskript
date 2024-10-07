@@ -1,0 +1,44 @@
+{
+  "name": "yamlskript",
+  "version": "0.0.3",
+  "description": "A YAML-based JavaScript compiler supporting all JavaScript features.",
+  "main": "src/compiler.js",
+  "bin": {
+    "ysk": "bin/ysk.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.21.0",
+    "@babel/parser": "^7.21.0",
+    "@babel/traverse": "^7.21.0",
+    "@babel/types": "^7.21.0",
+    "js-yaml": "^4.1.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "dist/"
+  ],
+  "author": "d4nndev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d4nndev/yamlskript.git"
+  },
+  "keywords": [
+    "yaml",
+    "javascript",
+    "compiler",
+    "yaml to js",
+    "js parser"
+  ],
+  "devDependencies": {
+    "eslint": "^9.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/d4nndev/yamlskript/issues"
+  },
+  "homepage": "https://github.com/d4nndev/yamlskript#readme"
+}
